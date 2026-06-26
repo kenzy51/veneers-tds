@@ -7,13 +7,12 @@ interface HeroProps {
     badge: string;       // e.g., "The Art of the Smile"
     title_main: string;  // e.g., "Bespoke Porcelain"
     title_italic: string;// e.g., "Veneers"
-    cta: string;         // e.g., "Design Your Smile"
+    cta: string;         // e.g., "Begin Smile Assessment"
     studio_name: string; // e.g., "Tribeca Dental Studio"
   };
 }
 
 export default function Hero({ dict }: HeroProps) {
-  // Use smooth scroll hook to transition down to your multi-step qualification component
   const scrollToId = useSmoothScroll();
 
   return (
@@ -69,7 +68,7 @@ export default function Hero({ dict }: HeroProps) {
           {/* Interactive Luxury CTA Button */}
           <div className="flex flex-col items-start gap-6">
             <motion.button
-              onClick={() => scrollToId("smileSurvey")} // Set target section ID to your survey component
+              onClick={() => scrollToId("leadForm")} // Matches your lead contact form component's id attribute
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}
