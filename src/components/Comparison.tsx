@@ -62,7 +62,7 @@ export default function Comparison({ lang }: ComparisonProps) {
             style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
           >
             <img
-              src="/Before2.png"
+              src="/before.png"
               alt="Teeth Before Porcelain Veneers Makeover"
               className="absolute inset-0 w-full h-full object-cover block"
             />
