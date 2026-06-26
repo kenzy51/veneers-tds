@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "badge": "Advanced Multi-Specialist Center",
+    "title_main": "The Art of",
+    "title_italic": "Aesthetic Restoration",
+    "cta": "Book Your 3D Consultation",
+    "studio_name": "Tribeca Dental Studio"
+  },
+  "science": {
+    "heading": "Diagnostic Precision",
+    "scan": "CBCT Airway Mapping",
+    "price_offer": "$49 Concierge Evaluation",
+    "benefit": "Restore the oxygen you need for the rest you deserve."
+  }
+}

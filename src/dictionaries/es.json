@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "badge": "Centro Especializado Avanzado",
+    "title_main": "El Arte de la",
+    "title_italic": "Restauración Estética",
+    "cta": "Reserve su Consulta 3D",
+    "studio_name": "Tribeca Dental Studio"
+  },
+  "science": {
+    "heading": "Precisión Diagnóstica",
+    "scan": "Mapeo de Vías Respiratorias CBCT",
+    "price_offer": "Evaluación Concierge por $49",
+    "benefit": "Restaura el oxígeno que necesitas para el descanso que mereces."
+  }
+}
