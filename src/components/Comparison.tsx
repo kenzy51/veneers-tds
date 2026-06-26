@@ -1,6 +1,7 @@
 "use client";
 import { useState, useRef } from "react";
 import Container from "./Container";
+import Image from "next/image";
 
 interface ComparisonProps {
   lang: string;
@@ -50,19 +51,22 @@ export default function Comparison({ lang }: ComparisonProps) {
           onTouchMove={handleMove}
         >
           {/* After Image (Background) */}
-          <img
+          <Image
+            width={2000}
+              height={2000}
             src="/after2.png"
             alt="Custom Porcelain Veneers After Makeover"
             className="absolute inset-0 w-full h-full object-cover block"
           />
 
-          {/* Before Image (Overlay) */}
           <div
             className="absolute inset-0 w-full h-full z-10"
             style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
           >
-            <img
-              src="/before.png"
+            <Image
+              width={2000}
+              height={2000}
+              src="/teethbefore.png"
               alt="Teeth Before Porcelain Veneers Makeover"
               className="absolute inset-0 w-full h-full object-cover block"
             />
